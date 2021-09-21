@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship</title>
+    <script src="battleship-script.js"></script>
+    <link rel="stylesheet" type="text/css" href="battleship-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body onload="createTable()">
+    <!--<button onclick="setBoats()">Brodovi</button>-->
+   
+
+    
+        
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 id="name1"></h3>
+            <p id="redp1">&nbsp;</p>
+            <table class="final">
+                <tr align="center">
+                    <td>&nbsp;</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                    <td>J</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="10" colspan="10"><table id="myTable"></table></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                </tr>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <table> 
+        <tr class="stanje">
+            <th class="stanje">Brod 4</th>
+            <th class="stanje">Brod 3</th>
+            <th class="stanje">Brod 2</th>
+            <th class="stanje">Brod 1</th>
+        </tr>
+        <tr class="stanje">
+            <th class="stanje" id = "b4">1</th>
+            <th class="stanje" id = "b3">2</th>
+            <th class="stanje" id = "b2">3</th>
+            <th class="stanje" id = "b1">4</th>
+        </tr>
+    </table>
+
+          </div>
+          <div class="col-sm-6">
+            <h3 id="name2"></h3>
+            <p id="redp2">&nbsp;</p>
+            <table class="final">
+                <tr align="center">
+                    <td>&nbsp;</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                    <td>J</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="10" colspan="10"><table id="myTable2"></table></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                </tr>
+            </table>
+            <p>&nbsp;</p>
+
+            <table> 
+        <tr class="stanje">
+            <th class="stanje">Brod 4</th>
+            <th class="stanje">Brod 3</th>
+            <th class="stanje">Brod 2</th>
+            <th class="stanje">Brod 1</th>
+        </tr>
+        <tr class="stanje">
+            <th class="stanje" id = "b40">1</th>
+            <th class="stanje" id = "b30">2</th>
+            <th class="stanje" id = "b20">3</th>
+            <th class="stanje" id = "b10">4</th>
+        </tr>
+    </table>
+          </div>
+        </div>
+      </div>
+
+      <div align="center">
+          <br>
+        <button onclick="setBoats()">Set ships</button>
+      </div>
+
+      
+
+</body>
+</html>
